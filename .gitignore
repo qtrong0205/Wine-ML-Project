@@ -1,0 +1,35 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# ===== Virtual environment =====
+venv/
+.env/
+.env.bak/
+
+# ===== Jupyter Notebook =====
+.ipynb_checkpoints/
+
+# ===== Data (không commit dữ liệu sinh ra) =====
+data/processed/
+data/raw/*.csv
+
+# ===== Models =====
+models/*.pkl
+models/*.joblib
+
+# ===== Logs =====
+*.log
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# ===== IDE =====
+.vscode/
+.idea/
+
+# ===== Cache =====
+.cache/
